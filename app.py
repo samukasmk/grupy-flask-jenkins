@@ -3,7 +3,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '<h1>Welcome to Dockerized Flask of Samuka!</h1>'
+    return '''
+<h1>Welcome to silly project of Samuka!</h1>
+<p>Avaliable endpoints:</p>
+<ul>
+  <li><b>/</b> - this page</li>
+  <li><b>/ping</b> - example of rest api with json response</li>
+  <li><b>/modal</b> - exemple of html divs</li>
+</ul>
+
+<h3>More contacts: samuel@smk.net.br</h3>
+'''
 
 @app.route('/ping')
 def ping():
