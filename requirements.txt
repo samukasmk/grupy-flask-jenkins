@@ -1,0 +1,11 @@
+# instala o flask
+Flask==0.11.1
+
+# instala o py.test para flask
+pytest==3.0.4
+pytest-flask==0.10.0
+pytest-flakes==1.0.1
+pytest-selenium==1.7.0
+
+# instala as dependencias customizadas do py.test
+selenium==3.0.2
